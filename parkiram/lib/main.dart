@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'View/homePageView.dart';
 
 void main() {
   runApp(const Parkiram());
@@ -14,7 +15,8 @@ class Parkiram extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const homePage(),
+      debugShowCheckedModeBanner: false,
+      home: const HomePage(),
     );
   }
 }
