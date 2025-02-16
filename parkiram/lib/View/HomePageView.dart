@@ -22,6 +22,24 @@ class HomePage extends StatelessWidget {
               height: 250,
             ),
           ),
+          Positioned(
+            top: 390,
+            right: 210,
+            child: Image(
+              image: AssetImage('assets/images/caraset.png'),
+              fit: BoxFit.fill,
+              height: 250,
+            ),
+          ),
+          Positioned(
+            top: 270,
+            right: 210,
+            child: Image(
+              image: AssetImage('assets/images/caraset.png'),
+              fit: BoxFit.fill,
+              height: 250,
+            ),
+          ),
         ],
       ),
     );
